@@ -1,5 +1,9 @@
 function strictEquals(a, b) {
-  if (Number.isNaN(a) || Number.isNaN(b)) {
+  let isFirstNumberZero = Object.is(Math.abs(a), 0);
+  let isSecondNumberZero = Object.is(Math.abs(b), 0);
+  if (isFirstNumberZero && isSecondNumberZero) {
+    return true;
+  } else if (Number.isNaN(a) || Number.isNaN(b)) {
     return false;
   } else {
     return Object.is(a, b);

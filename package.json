@@ -2,9 +2,9 @@
   "name": "challenge2",
   "version": "1.0.0",
   "description": "Escribe una función llamada `strictEquals(a, b)` que devuelva el mismo valor que `a === b`. Tu implementación no puede usar los operadores `===` ni `!==`.",
-  "main": "index.js",
+  "main": "index.test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest --watchAll --verbose"
   },
   "repository": {
     "type": "git",

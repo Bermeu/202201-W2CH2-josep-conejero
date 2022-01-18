@@ -1,0 +1,23 @@
+{
+  "name": "challenge2",
+  "version": "1.0.0",
+  "description": "Escribe una función llamada `strictEquals(a, b)` que devuelva el mismo valor que `a === b`. Tu implementación no puede usar los operadores `===` ni `!==`.",
+  "main": "index.test.js",
+  "scripts": {
+    "test": "npx jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bermeu/202201-W2CH2-josep-conejero.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bermeu/202201-W2CH2-josep-conejero/issues"
+  },
+  "homepage": "https://github.com/Bermeu/202201-W2CH2-josep-conejero#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
